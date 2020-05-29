@@ -1,9 +1,7 @@
 import React, { useState } from 'react'
 import { FiLinkedin, FiGithub, FiMail, FiArrowRight, FiSmile } from 'react-icons/fi'
 
-import ContentNav from '../../components/ContentNav'
-
-import { Header, Container, ContentImage, ContentAbout } from './styles'
+import { Header, Container, ContentImage, ContentAbout, Main, SectionTypeService } from './styles'
 
 const Home = () => {
   const [services, setServices] = useState(true)
@@ -111,6 +109,67 @@ const Home = () => {
         </ContentAbout>
       </Header>
 
+      <Main>
+        <SectionTypeService>
+          <div className="content">
+            <div className="contact">
+              <h3> - Contact</h3>
+              
+              <h2>Atendo Qualquer segmento</h2>
+
+              <h4>
+                Os preços sõa feito de acordo com a necessidade de cada projeto
+                me envie um email e retornarei em breve!
+              </h4>
+
+              <a href="#">gabriel.nascimenton.19@gmail.com</a>
+            </div>
+
+            <div className="satisfied-clients">
+              <h2>
+                Você está precisando de um site criativo! 
+                Aqui seu site e feito com todo cuidado nos maiores detalhes 
+                prezamos muito pela usabilidade
+              </h2>
+
+              <h3>
+                Não precisa ter duvida! atendemos alguns clientes que 
+                ficaram felizes com nossos serviços!
+              </h3>
+
+              <ul className="clients">
+                <li>
+                  <h2><span>2</span>Anos de Experiêcia.</h2>
+                </li>
+                <li><h2><span>20</span>Clientes Satisfeitos.</h2></li>
+              </ul>
+            </div>
+            
+          </div>
+          <div className="content">
+            <div className="projects">
+              <div className="item item-marketing-digital">
+                <div className="title">
+                  <h2>Produto Digital</h2>
+                  <p>6 Projetos</p>
+                </div>
+              </div>
+              <div className="item item-criação-arte">
+                <div className="title">
+                  <h2>Design Gráfico</h2>
+                  <p>10 Projetos</p>
+                </div>
+              </div>
+              <div className="item item-site">
+                <div className="title">
+                  <h2>Sites Institucionais</h2>
+                  <p>4 Projetos</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </SectionTypeService>
+      </Main>
     </Container>
   )
 }
