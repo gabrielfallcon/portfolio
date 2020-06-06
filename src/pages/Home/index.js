@@ -129,8 +129,6 @@ const Home = () => {
   useEffect(() => {
     fadeName()
     fadeSocial()
-    fadeNavba()
-    fadeIntroduction()
   },[])
   return(
     <Container>
@@ -218,7 +216,6 @@ const Home = () => {
           </ContentAbout>
         </div>
       </Header>
-
       <Main>
         <SectionTypeService id="typeService">
           <div className="content">
@@ -419,8 +416,7 @@ const Home = () => {
             </div>
           )}
           
-        </Recomendation>
-      
+        </Recomendation>    
       </Main>
       <Footer>
         <div className="content">

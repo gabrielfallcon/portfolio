@@ -15,7 +15,8 @@ export const Header = styled.header`
   justify-content: center;
 
   .content {
-    width: 60%;
+    max-width: 1120px;
+    width: 100%;
     height: 100%;
     margin: 0 auto;
     display: flex;
@@ -26,7 +27,7 @@ export const Header = styled.header`
 
 export const ContentImage = styled.div`
   width: 100%;
-  max-width: 800px;
+  max-width: 620px;
   height: 800px;
   display: flex;
   flex-direction: column;
@@ -35,7 +36,7 @@ export const ContentImage = styled.div`
   position: relative;
 
   h1 {
-    font-size: 74px;
+    font-size: 76px;
     color: #FAFAFA;
     z-index: 888;
     opacity: 0;
@@ -89,7 +90,7 @@ export const ContentAbout = styled.div`
   height: 800px;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: center;
   align-items: flex-start;
   position: relative;
   margin-left: 10px;
@@ -100,8 +101,6 @@ export const ContentAbout = styled.div`
     align-items: center;
     justify-content: space-around;
     list-style: none;
-    margin-top: -50%;
-    opacity: 0;
     
     li {
       & + li {
@@ -120,16 +119,17 @@ export const ContentAbout = styled.div`
   }
 
   .introduction {
-    margin-bottom: -100%;
+    margin-top: 120px;
 
     h3 {
-      font-size: 18px;
+      font-size: 16px;
       color: #858790;
       letter-spacing: 3px;
     }
 
     h2 {
       font-size: 36px;
+      line-height: 46px;
       font-weight: 400;
       color: #FAFAFA;
       margin: 40px 0px 25px 0px;  
@@ -138,13 +138,14 @@ export const ContentAbout = styled.div`
     p {
       width: 100%;
       font-size: 16px;
+      line-height: 26px;
       color: #a8a9b0;
       line-height: 24px;
       margin-bottom: 40px;
     }
 
     > a {
-      font-size: 26px;
+      font-size: 24px;
       color: #ffc25c;
       position: absolute;
       text-decoration: none;
@@ -174,7 +175,8 @@ export const SectionTypeService = styled.section`
 
   .content {
     margin: 0 auto;
-    width: 60%;
+    width: 100%;
+    max-width: 1120px;
     padding: 40px 0px;
     display: flex;
     justify-content: space-between;
@@ -192,20 +194,22 @@ export const SectionTypeService = styled.section`
         font-weight: 400;
       }
       h2 {
-        width: 250px;
-        font-size: 30px;
+        width: 280px;
+        font-size: 36px;
+        line-height: 46px;
         color: #FAFAFA;
         margin-bottom: 30px;
         font-weight: 400;
       }
       h4 {
         width: 310px;
-        font-size: 14px;
+        font-size: 16px;
+        line-height: 26px;
         color: #9d9ea4;
         margin-bottom: 50px;
       }
       a{
-        font-size: 20px;
+        font-size: 24px;
         text-decoration: none;
         color: #ffaf29;
         font-weight: bold;
@@ -217,8 +221,9 @@ export const SectionTypeService = styled.section`
       text-align: start;
 
       h2 {
-        width: 80%;
-        font-size: 30px;
+        width: 100%;
+        font-size: 36px;
+        line-height: 46px;
         color: #FAFAFA;
         font-weight: 400;
         margin-bottom: 30px;
@@ -226,7 +231,8 @@ export const SectionTypeService = styled.section`
       }
       h3 {
         width: 350px;
-        font-size: 14px;
+        font-size: 16px;
+        line-height: 26px;
         color: #9d9ea4;
         margin-bottom: 40px;
       }
@@ -239,6 +245,7 @@ export const SectionTypeService = styled.section`
           display: flex;
           align-items: center;
           justify-content: space-around;
+          margin-left: 32px;
 
           h2{
             display: flex;
@@ -311,7 +318,8 @@ export const Portfolio = styled.section`
 
   .content {
     margin: 0 auto;
-    width: 60%;
+    width: 100%;
+    max-width: 1120px;
     padding: 250px 0px 40px 0px ;
     display: flex;
     justify-content: space-between;
@@ -330,25 +338,27 @@ export const Portfolio = styled.section`
       }
       h2 {
         width: 250px;
-        font-size: 30px;
+        font-size: 36px;
+        line-height: 46px;
         color: #FAFAFA;
         margin-bottom: 30px;
         font-weight: 400;
       }
       h4 {
         width: 310px;
-        font-size: 14px;
+        font-size: 16px;
+        line-height: 26px;
         color: #9d9ea4;
         margin-bottom: 50px;
       }
       a{
-        font-size: 20px;
+        font-size: 24px;
         text-decoration: none;
         color: #ffaf29;
         font-weight: bold;
 
         svg {
-          margin-left: 30px;
+          margin-left: 24px;
         }
       }
       .portfolio-item {
@@ -411,13 +421,14 @@ export const Portfolio = styled.section`
 
           h2 {
             width: 250px;
-            font-size: 30px;
+            font-size: 36px;
             color: #FAFAFA;
             margin-bottom: 30px;
             font-weight: 400;
           }
           h3{
             color: #ffaf29;
+            font-size: 16px;
           }
         }
       }
@@ -435,7 +446,8 @@ export const Recomendation = styled.section`
 
   .content {
     margin: 0 auto;
-    width: 60%;
+    width: 100%;
+    max-width: 1120px;
     display: flex;
     justify-content: space-between;
     transition: 1s ease-in-out;
@@ -461,14 +473,14 @@ export const Recomendation = styled.section`
 
       h2{
         font-size: 36px;
+        line-height: 46px;
         color: #FAFAFA;
         margin-bottom: 40px;
         font-weight: 400;
-        line-height: 40px;
         font-style: italic;
       }
       h3.name {
-        font-size: 22px;
+        font-size: 24px;
         font-weight: 400;
         color: #FAFAFA;
         margin-bottom: 10px;
@@ -517,7 +529,8 @@ export const Footer = styled.footer`
 
   .content {
     margin: 0 auto;
-    width: 60%;
+    width: 100%;
+    max-width: 1120px;
     padding: 80px 0px 40px 0px ;
     display: flex;
     justify-content: space-between;
@@ -531,26 +544,27 @@ export const Footer = styled.footer`
       position: relative;
 
       h2{
-        font-size: 26px;
+        font-size: 36px;
+        line-height: 46px;
         color: #FAFAFA;
         margin-bottom: 30px;
         font-weight: 400;
-        line-height: 40px;
       }
       h4 {
         width: 260px;
-        font-size: 14px;
+        font-size: 16px;
+        line-height: 26px;
         color: #9d9ea4;
         margin-bottom: 50px;
       }
       a{  
-        font-size: 20px;
+        font-size: 24px;
         text-decoration: none;
         color: #ffaf29;
         font-weight: bold;
 
         svg {
-          margin-left: 30px;
+          margin-left: 20px;
         }
       }
     }
@@ -560,11 +574,11 @@ export const Footer = styled.footer`
       flex-direction: column;
 
       h2 {
-        font-size: 26px;
+        font-size: 36px;
+        line-height: 46px;
         color: #FAFAFA;
         margin-bottom: 30px;
-        font-weight: 600;
-        line-height: 40px;
+        font-weight: 400;
       }
       form {
         width: 100%;
@@ -578,7 +592,7 @@ export const Footer = styled.footer`
           &::placeholder{
             color: #FAFAFA;
             font-weight: 400;
-            font-size: 18px;
+            font-size: 16px;
           }
 
           height: 60px;
@@ -598,7 +612,7 @@ export const Footer = styled.footer`
           justify-content: center;
           color: #ffaf29;
           border: 0;
-          font-size: 22px;
+          font-size: 24px;
           cursor: pointer;
 
           svg {
@@ -612,7 +626,8 @@ export const Footer = styled.footer`
 
 export const Rodape = styled.div`
   margin: 0 auto;
-  width: 60%;
+  width: 100%;
+  max-width: 1120px;
   min-height: 350px;
   padding: 80px 0px 20px 0px ;
   display: flex;
@@ -625,7 +640,7 @@ export const Rodape = styled.div`
     width: 100px;
   }
   h4 {
-    font-size: 14px;
+    font-size: 16px;
     color: #9d9ea4;
     margin-bottom: 50px;
     display: flex;
