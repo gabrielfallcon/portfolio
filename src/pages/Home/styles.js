@@ -18,6 +18,7 @@ export const Header = styled.header`
     max-width: 1120px;
     width: 100%;
     height: 100%;
+    padding: 0px 20px;
     margin: 0 auto;
     display: flex;
     align-items: center;
@@ -177,7 +178,7 @@ export const SectionTypeService = styled.section`
     margin: 0 auto;
     width: 100%;
     max-width: 1120px;
-    padding: 40px 0px;
+    padding: 40px 20px;
     display: flex;
     justify-content: space-between;
     position: relative;
@@ -320,7 +321,7 @@ export const Portfolio = styled.section`
     margin: 0 auto;
     width: 100%;
     max-width: 1120px;
-    padding: 250px 0px 40px 0px ;
+    padding: 250px 20px 40px 20px ;
     display: flex;
     justify-content: space-between;
     position: relative;
@@ -448,6 +449,7 @@ export const Recomendation = styled.section`
     margin: 0 auto;
     width: 100%;
     max-width: 1120px;
+    padding: 0px 20px;
     display: flex;
     justify-content: space-between;
     transition: 1s ease-in-out;
@@ -531,7 +533,7 @@ export const Footer = styled.footer`
     margin: 0 auto;
     width: 100%;
     max-width: 1120px;
-    padding: 80px 0px 40px 0px ;
+    padding: 80px 20px 40px 20px ;
     display: flex;
     justify-content: space-between;
     position: relative;
